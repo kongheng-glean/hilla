@@ -279,5 +279,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-text-field-testbench:24.1.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-time-picker-testbench:24.1.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-upload-testbench:24.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.26" level="project" />
   </component>
 </module>
