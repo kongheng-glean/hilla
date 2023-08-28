@@ -31,7 +31,8 @@
     "lit": "2.7.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
+    "react-router-dom": "^6.4.2",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@lit-labs/react": "^1.1.0",
@@ -83,7 +84,8 @@
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
     "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
     "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
-    "formik": "$formik"
+    "formik": "$formik",
+    "yup": "$yup"
   },
   "vaadin": {
     "dependencies": {
@@ -130,6 +132,6 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "b5e1d388faea6b0a3da40a746a212c2552ceb9f39fa815ab85840bb86d90ff84"
+    "hash": "7cdaf613fc694b477b791bb71045b351ef9ae1eb9ac9d8ee10c82dbe33ec794c"
   }
 }

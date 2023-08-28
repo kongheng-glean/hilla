@@ -3,6 +3,7 @@ import { lazy } from 'react';
 import { createBrowserRouter, IndexRouteObject, NonIndexRouteObject, useMatches } from 'react-router-dom';
 
 const TodoView = lazy(async () => import('Frontend/views/todo/TodoView.js'));
+const ManageStudent = lazy(async () => import('Frontend/views/student/ManageStudent'));
 
 export type MenuProps = Readonly<{
   icon?: string;
@@ -33,7 +34,8 @@ export const routes: readonly ViewRouteObject[] = [
     element: <MainLayout />,
     handle: { icon: 'null', title: 'Main' },
     children: [
-      { path: '/', element: <TodoView />, handle: { icon: 'list-alt-solid', title: 'Todo' } }
+      { path: '/', element: <TodoView />, handle: { icon: 'none', title: 'Todo' } },
+      { path: '/student', element: <ManageStudent />, handle: { icon: 'none', title: 'Manage Student' } },
     ],
   },
 ];
